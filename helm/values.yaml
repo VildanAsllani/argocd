@@ -21,7 +21,7 @@ ingress:
     kubernetes.io/ingress.class: alb
     alb.ingress.kubernetes.io/scheme: internet-facing
     alb.ingress.kubernetes.io/target-type: ip
-    alb.ingress.kubernetes.io/certificate-arn: rn:aws:acm:eu-central-1:313422618945:certificate/f2154779-2539-453f-80f6-81c085afb9ec
+    alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:eu-central-1:313422618945:certificate/f2154779-2539-453f-80f6-81c085afb9ec
     alb.ingress.kubernetes.io/tags: Name=devops-training, Environment=dev
     alb.ingress.kubernetes.io/group.name: devops-training
     alb.ingress.kubernetes.io/listen-ports: '[{"HTTP": 80}, {"HTTPS": 443}]'
